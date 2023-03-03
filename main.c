@@ -213,6 +213,29 @@ int verifierGrille(int arr[9][9])
 //Écrire le programme principal, en supposant que la seule condition d’arrêt est la réussite du sudoku (ce test ne devra être fait que si nécessaire)
 
 
+void principale(int arr[9][9]){
+
+    int res = 0;
+
+    while (!res)
+    {
+        saisir(arr);
+        res = verifierGrille(arr);
+        
+    }
+    
+
+
+
+}
+
+
+
+
+
+
+
+
 int main(){
     // Ne pas toucher le code entre les commentaires
     srand( time( NULL ) );
